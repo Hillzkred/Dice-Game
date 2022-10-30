@@ -18,25 +18,43 @@ body {
     }
 }
 
-#players {
+#game-container {
     font-size: 3rem;
     ul {
         display: flex;
         list-style: none;
+        align-items: center;
         justify-content: center;
         margin-top: 50px;
         margin-right: 15px;
 
-        li {
-            text-align: center;
+        .players {
             margin-right: 10rem;
             margin-left: 10rem;
-            color:#ffc8a3;
+            width: 165px;
+
+            li {
+                text-align: center;
+                color:#ffc8a3;
+            }
+
+            
+            img {
+                margin-top: 15px;
+                width: 150px;
+            }
         }
 
-        img {
-            margin-top: 15px;
-            width: 150px;
+        .roll-btn{
+            a {
+                text-decoration: none;
+                color: #333;
+                font-size: 1.5rem;
+                padding: 1rem;
+                background-color: #ffc8a3;
+                border-radius: 10px;
+            }
         }
+        
     }
 }

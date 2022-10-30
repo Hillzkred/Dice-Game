@@ -12,19 +12,29 @@ body {
     text-align: center;
     color: #fff; }
 
-#players {
+#game-container {
   font-size: 3rem; }
-  #players ul {
+  #game-container ul {
     display: flex;
     list-style: none;
+    align-items: center;
     justify-content: center;
     margin-top: 50px;
     margin-right: 15px; }
-    #players ul li {
-      text-align: center;
+    #game-container ul .players {
       margin-right: 10rem;
       margin-left: 10rem;
-      color: #ffc8a3; }
-    #players ul img {
-      margin-top: 15px;
-      width: 150px; }
+      width: 165px; }
+      #game-container ul .players li {
+        text-align: center;
+        color: #ffc8a3; }
+      #game-container ul .players img {
+        margin-top: 15px;
+        width: 150px; }
+    #game-container ul .roll-btn a {
+      text-decoration: none;
+      color: #333;
+      font-size: 1.5rem;
+      padding: 1rem;
+      background-color: #ffc8a3;
+      border-radius: 10px; }
