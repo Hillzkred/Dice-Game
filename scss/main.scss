@@ -4,16 +4,39 @@
 }
 
 body {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Patrick Hand', sans-serif;
     background-color: steelblue;
 }
 
 #main-title {
-    font-family: 'Patrick Hand', sans-serif;
+    
     font-size: 4.5rem;
 
     h1 {
         text-align: center;
         color: #fff;
+    }
+}
+
+#players {
+    font-size: 3rem;
+    ul {
+        display: flex;
+        list-style: none;
+        justify-content: center;
+        margin-top: 50px;
+        margin-right: 15px;
+
+        li {
+            text-align: center;
+            margin-right: 10rem;
+            margin-left: 10rem;
+            color:#ffc8a3;
+        }
+
+        img {
+            margin-top: 15px;
+            width: 150px;
+        }
     }
 }
