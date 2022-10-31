@@ -1,2 +1,3 @@
-# Dice-game
- Simple dice game that generates two random dice roll by refreshing the web page
+# Dice-Game
+
+Simple game that generates two random dice roll by refreshing the webpage.
