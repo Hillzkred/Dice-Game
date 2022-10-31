@@ -4,7 +4,8 @@
 
 body {
   font-family: 'Patrick Hand', sans-serif;
-  background-color: steelblue; }
+  background-color: steelblue;
+  margin-top: 9rem; }
 
 #main-title {
   font-size: 4.5rem; }
@@ -33,8 +34,8 @@ body {
         width: 150px; }
     #game-container ul .roll-btn a {
       text-decoration: none;
-      color: #333;
+      color: #fff;
       font-size: 1.5rem;
-      padding: 1rem;
-      background-color: #ffc8a3;
+      padding: 5px 15px;
+      background-color: #83b6bd;
       border-radius: 10px; }
